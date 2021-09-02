@@ -1,22 +1,26 @@
 
 // Sistema Cadastro de Eventos 
+var Eventos = ["Simposio Front End do Senai"]
 
-// lista do evento.
-var Eventos = ["Palestra sobre JAVA", "Palestra sobre SQL"]
-var Inscritos = ["Maria","João", "Julia" ]
+// Lista de palestra inscritas no eventoinscritos no evento.
+let PalestraCadastrada_no_Evento = ["Palestra sobre JAVA", "Palestra sobre SQL", "Palestra GAMIFICAÇÃO"]
+
+for (let nome of PalestraCadastrada_no_Evento) {
+    console.log("-> "+ nome);
+}
 
 // Verificação da data do evento.
 let DataEvento = 29/08/2021;
 
   if (DataEvento.length <= 29/08/2021) {
-  DataEventole.log("Data inválida - não existe event na data informada.")
+      DataEventole.log("Data inválida - não existe event na data informada.")
   }else if (DataEvento.length == 0) {
       DataEventoog("A data do evento deve ser informada.")
   } else {
       console.log("Data válida para o evento.")
   }  
 
-  // Verificando se o evento possui mais e de 100 palestra.
+// Verificando se o evento possui mais e de 100 palestra.
 let Evento = 100;
 
 if (Eventos.length < 100) {
@@ -35,15 +39,8 @@ if (Idade.length <= 18) {
 }
 
 // Lista de inscritos no evento.
-for (let contador = 0; contador = Inscritos; contador++) {
+let NomeInscritos = ["João", "Maria", "José"]
 
-if (contador == 0) {
-    console.log(contador + "Palestra JAVA ");
-  } else if (contador % 2 == 0) {
-    console.log("Palestra JAVA")
-  } else if (contador % 2 == 0){
-    console.log("Palestra JAVA " + contador)
-  } else {
-    console.log("Palestra sobre SQL -  " + contador) 
-  }    
+for (let nome of NomeInscritos) {
+    console.log("O nome é - " + nome);
 }
