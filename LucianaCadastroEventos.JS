@@ -9,18 +9,7 @@ for (let nome of PalestraCadastrada_no_Evento) {
     console.log("-> "+ nome);
 }
 
-// Verificação da data do evento.
-let DataEvento = 29/08/2021;
-
-  if (DataEvento.length <= 29/08/2021) {
-      DataEventole.log("Data inválida - não existe event na data informada.")
-  }else if (DataEvento.length == 0) {
-      DataEventoog("A data do evento deve ser informada.")
-  } else {
-      console.log("Data válida para o evento.")
-  }  
-
-// Verificando se o evento possui mais e de 100 palestra.
+// Verificação do evento.
 let Evento = 100;
 
 if (Eventos.length < 100) {
@@ -44,3 +33,4 @@ let NomeInscritos = ["João", "Maria", "José"]
 for (let nome of NomeInscritos) {
     console.log("O nome é - " + nome);
 }
+    
